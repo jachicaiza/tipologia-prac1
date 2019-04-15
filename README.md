@@ -2,6 +2,9 @@
 Práctica enfocada en la recolección de datos relacionados a investigadores y conjuntos de datos
 
 # Descripción del proyecto
+La Ciencia Abierta se ha constituido en un movimiento capaz de acelerar en gran medida la producción y difusión del conocimiento (Friesike, 2015). Gracias a este y otros paradigmas, los investigadores están publicando en la Web sus conjuntos de datos (datasets), así fomentan su reuso y contribuyen a mejorar la colaboración entre los miembros de la comunidad científica.
+Esta iniciativa surge con el objetivo de ayudar a los investigadores a encontrar conjuntos de datos que puedan utilizar en sus estudios y experimentaciones. Para conseguir el objetivo propuesto, en este proyecto de la asignatura se han elegido dos métodos de recolección de datos desde la Web: 1) librería scholarly para recoger datos del perfil de investigadores en Google Scholar; y, 2) scrapy para leer los metadatos de los datasets de UCI Learning Machine Repository. 
+En base a los intereses de un investigador (con un perfil en Google Scholar), el/ella podría ejecutar los scripts desarrollados para descargar los metadatos de los datasets disponibles en el repositorio seleccionado para la tarea de scrapy. Luego, se podría construir un agente que le recomiende los datasets que le ayude a generar nuevo conocimiento (McKiernan et. al. 2016).
 
 # Autores
 * Janneth Chicaiza Espinosa (jachicaiza)
