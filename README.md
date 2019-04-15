@@ -4,8 +4,8 @@ Práctica enfocada en la recolección de datos relacionados a investigadores y c
 # Descripción del proyecto
 
 # Autores
-* Janneth Chicaiza Espinosa
-* Jaime Velandia López
+* Janneth Chicaiza Espinosa (jachicaiza)
+* Jaime Velandia López (jvelandi)
 
 # Descripción de datasets
 
