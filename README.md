@@ -8,9 +8,6 @@ Práctica enfocada en la recolección de datos relacionados a investigadores y c
 * Jaime Velandia López (jvelandi)
 
 # Descripción de datasets
-De acuerdo a la descripción proporcionada en el primer apartado, a través de esta práctica, se han generado dos conjuntos de datos:
-
-
 
 Dataset
 Método de extracción de datos
