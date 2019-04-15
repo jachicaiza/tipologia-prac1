@@ -26,7 +26,16 @@ Nota: En el directorio "doc", puede encontrar más información sobre el proyect
 Los siguientes archivos fueron creados y probados en un entorno python 3.7:
 
 * gScholar.py: permite buscar los investigadores de Google Scholar, por su nombre o afiliación. Requiere los siguientes paquetes python: scholarly, bs4,requests, json, os, csv. 
+  
+  Para que inicie el proceso de recolección, se debe ejecutar el método principal get_author() enviando como parámetro una cadena de texto, que bien puede ser el nombre de un investigador o el de una institución. Por ejemplo:
+  
+   author = gScholar.get_author('Jordi Conesa')
+   
 * uciScraper.py: obtiene la lista de todos los datasets disponibles en UCI LM Repository y luego accede a la página descriptiva de cada uno y extrae sus metadatos. Requiere las librerías: requests, urllib, re, bs4, urllib.parse, json, os, csv.
+   Para iniciar la extracción de datos, se debe invocar al método principal scraper(), así:
+   
+   datasetList = uciScraper.scraper()
+   
 * main.py: invoca a los otros dos archivos, para comenzar la descarga de los datos y posteriomente guardarlos en un directorio específico.
 
 
