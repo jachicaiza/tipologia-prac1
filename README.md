@@ -23,6 +23,8 @@ Nota: En el directorio "doc", puede encontrar más información sobre el proyect
 
 # Ficheros del código fuente
 
+Los siguientes archivos fueron creados y probados en un entorno python 3.7:
+
 * gScholar.py: permite buscar los investigadores de Google Scholar, por su nombre o afiliación. Requiere los siguientes paquetes python: scholarly, bs4,requests, json, os, csv. 
 * uciScraper.py: obtiene la lista de todos los datasets disponibles en UCI LM Repository y luego accede a la página descriptiva de cada uno y extrae sus metadatos. Requiere las librerías: requests, urllib, re, bs4, urllib.parse, json, os, csv.
 * main.py: invoca a los otros dos archivos, para comenzar la descarga de los datos y posteriomente guardarlos en un directorio específico.
