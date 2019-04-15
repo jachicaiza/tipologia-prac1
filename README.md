@@ -18,12 +18,14 @@ En base a los intereses de un investigador (con un perfil en Google Scholar), el
 
 * UCI Datasets: Describe las características de cada uno de los conjuntos de datos disponibles en el sitio de UCI Machine Learning Repository. Se utiliza la librería bs4 de python (Lawson, 2015) para recolectar los metadatos de cada dataset. 
 
-# Ficheros del código fuente.
+Nota: En el directorio "doc", puede encontrar más información sobre el proyecto, el proceso aplicado y la estructura de cada dataset.
+
+# Ficheros del código fuente
 
 * gScholar.py: permite buscar los investigadores de Google Scholar, por su nombre o afiliación. Requiere los siguientes paquetes python: scholarly, bs4,requests, json, os, csv. 
 * uciScraper.py: obtiene la lista de todos los datasets disponibles en UCI LM Repository y luego accede a la página descriptiva de cada uno y extrae sus metadatos. Requiere las librerías: requests, urllib, re, bs4, urllib.parse, json, os, csv.
 * main.py: invoca a los otros dos archivos, para comenzar la descarga de los datos y posteriomente guardarlos en un directorio específico.
-  
+
 
   
 # Recursos bibliográficos
