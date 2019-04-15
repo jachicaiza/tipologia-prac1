@@ -25,13 +25,13 @@ Técnica de scrapy utilizando la librería bs4 de python (Lawson, 2015)  (*)
 
 Por cada script python: indicar su descripción y requerimientos de su ejecución.
 
-Para scholarly: 
+Para scholarly:   
   Requires arrow, 
   Beautiful Soup, 
   bibtexparser, 
   requests
   
-Para Scraping
+Para Scraping:   
   requests
   urllib
   itertools
@@ -40,7 +40,7 @@ Para Scraping
   parser
   import urllib.parse
 
-Adicionalmente para generar archivos CSV y JSON
+Adicionalmente para generar archivos CSV y JSON:   
   json
   os
   
